@@ -21,3 +21,6 @@ plt.imshow(img2)
 
 
 After this the output will change to orginal color
+
+
+![RGB color](https://user-images.githubusercontent.com/42214175/70440558-76f08400-1ab8-11ea-88ed-5eb72b6a4a09.png)
