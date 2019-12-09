@@ -24,3 +24,18 @@ After this the output will change to orginal color
 
 
 ![RGB color](https://user-images.githubusercontent.com/42214175/70440558-76f08400-1ab8-11ea-88ed-5eb72b6a4a09.png)
+
+# OPEN CV can be used for camera video (web cam)
+Below is the simple implementation how to open a camera using openCv
+- cap = cv2.VideoCapture(0)# open camera with device 0 which is webcam
+- r,img= cap.read()
+- while r:
+-    cv2.imshow('Frame',img)
+ -   a=cv2.waitKey(40)
+ -   if a!=-1:  # if any key is pressed
+ -       r=False # set r to False stop reading Frame
+ -   else:
+ -       r,img=cap.read() # else read new frame
+- cv2.destroyAllWindows()
+- cap.release()
+
