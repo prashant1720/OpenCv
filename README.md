@@ -38,4 +38,6 @@ Below is the simple implementation how to open a camera using openCv
  -       r,img=cap.read() # else read new frame
 - cv2.destroyAllWindows()
 - cap.release()
+# Web cam Picture
+- ![camera](https://user-images.githubusercontent.com/42214175/70441943-537b0880-1abb-11ea-92d4-74cbe88c97de.png)
 
